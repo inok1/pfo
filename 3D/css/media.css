@@ -1,0 +1,548 @@
+@media (min-width: 320px) {
+  .nav__list {
+    flex-wrap: nowrap;
+  }
+
+  .header {
+    padding: 25px 0 24px;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+    margin-bottom: 23px;
+  }
+
+  .nav__list {
+    left: 0;
+  }
+
+  .hero {
+    padding: 50px 0;
+  }
+
+  .hero__content {
+    padding-top: 0;
+  }
+
+  .title {
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+
+  .hero__descr {
+    margin-bottom: 47px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__link {
+    padding: 19px 53px;
+    font-size: 16px;
+  }
+
+  .hero__image {
+    display: none;
+  }
+
+  .about-us {
+    padding: 50px 0 49px;
+  }
+
+  .about-us__wrapper {
+    gap: 0;
+  }
+
+  .about-us__title {
+    width: 290px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .about-us-image {
+    display: none;
+  }
+
+  .about-us__descr {
+    width: 290px;
+    margin-bottom: 24px;
+  }
+
+  .about-us__item {
+    flex-wrap: nowrap;
+    gap: var(--gap);
+  }
+
+  .about-us__item_one,
+  .about-us__item_two {
+    margin-bottom: 30px;
+  }
+
+  .teachers {
+    padding: 47px 0 46px;
+  }
+
+  .teachers__title {
+    margin-bottom: 27px;
+    font-size: 20px;
+  }
+
+  .teachers__item_one,
+  .teachers__item_two,
+  .teachers__item_three {
+    margin-bottom: 23px;
+  }
+
+  .teachers-item__image {
+    margin-bottom: 27px;
+  }
+
+  .teachers-item__title {
+    margin-bottom: 7px;
+    line-height: 150%;
+  }
+
+  .courses {
+    padding: 45px 0 24px;
+  }
+
+  .courses__title {
+    margin-bottom: 26px;
+    font-size: 20px;
+  }
+
+  .courses-item__title {
+    line-height: 130%;
+  }
+
+  .courses__item_one,
+  .courses__item_two,
+  .courses__item_three {
+    margin-bottom: 30px;
+  }
+
+
+
+  .courses-content_one {
+    margin-bottom: 82px;
+  }
+
+  .courses-content_two {
+    margin-bottom: 130px;
+  }
+
+  .courses-content_three {
+    margin-bottom: 178px;
+  }
+
+  .courses-content_four {
+    margin-bottom: 81px;
+  }
+
+  .courses-item__time {
+    top: 10px;
+    right: 10px;
+  }
+
+  .footer {
+    padding-top: 24px;
+  }
+}
+
+@media (min-width: 576px) {
+  .header {
+    padding: 31px 0 28px;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+    margin-bottom: 27px;
+  }
+
+  .nav__list {
+    position: relative;
+    left: 19px;
+  }
+
+  .hero {
+    padding: 78px 0 133px;
+  }
+
+  .title {
+    margin-bottom: 17px;
+    font-size: 50px;
+  }
+
+  .hero__descr {
+    margin-bottom: 62px;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .hero__link {
+    padding: 24px 75px;
+    font-size: 18px;
+  }
+
+  .hero__image {
+    display: none;
+  }
+
+  .about-us {
+    padding: 80px 0 55px;
+  }
+
+  .about-us__wrapper {
+    align-items: flex-start;
+    gap: var(--gap);
+  }
+
+  .about-us-image {
+    display: block;
+    transform: translateY(0);
+  }
+
+  .about-us__title {
+    margin-bottom: 18px;
+    width: 330px;
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+  .about-us__descr {
+    width: 330px;
+  }
+
+  .about-us__item {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .about-us__item_one,
+  .about-us__item_two {
+    margin-bottom: 0;
+  }
+
+  .about-us__image_circle {
+    margin-bottom: 9px;
+  }
+
+  .teachers {
+    padding: 74px 0 73px;
+  }
+
+  .teachers__title {
+    margin-bottom: 24px;
+    font-size: 40px;
+  }
+
+  .teachers__item_one,
+  .teachers__item_two {
+    margin-bottom: 23px;
+  }
+
+  .teachers__item_three {
+    margin-bottom: 0;
+  }
+
+  .courses {
+    padding: 74px 0 55px;
+  }
+
+  .courses__title {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+
+
+  .courses-item__time {
+    top: 11px;
+  }
+
+  .courses-content_one {
+    margin-bottom: 8px;
+  }
+
+  .courses-content_two {
+    margin-bottom: 56px;
+  }
+
+  .courses-content_three {
+    margin-bottom: 130px;
+  }
+
+  .courses-content_four {
+    margin-bottom: 32px;
+  }
+
+
+  .courses-item__title {
+    margin-bottom: 10px;
+  }
+
+  .courses-item__title_two {
+    width: 194px;
+  }
+
+  .courses__link,
+  .courses__link_three,
+  .courses__link_four {
+    position: static;
+    padding: 20px 48px;
+  }
+
+
+
+  .courses__item_three {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .header {
+    padding: 30px 0 25px;
+  }
+
+  .header__logo {
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .nav__list {
+    left: 0;
+  }
+
+  .title {
+    margin-bottom: 17px;
+    font-size: 50px;
+  }
+
+  .hero {
+    padding: 117px 0 134px;
+  }
+
+  .hero__content {
+    padding-top: 13px;
+  }
+
+  .hero__image {
+    display: block;
+  }
+
+  .about-us {
+    padding-bottom: 74px;
+  }
+
+  .about-us__wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .about-us-image {
+    transform: translateY(23px);
+  }
+
+  .about-us__title {
+    width: 380px;
+  }
+
+  .about-us__descr {
+    width: 450px;
+  }
+
+  .about-us__item {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .about-us__image_circle {
+    margin-bottom: 10px;
+  }
+
+  .teachers {
+    padding: 74px 0 49px;
+  }
+
+  .teachers__item_one,
+  .teachers__item_two {
+    margin-bottom: 24px;
+  }
+
+  .teachers-item__title {
+    margin-bottom: 6px;
+  }
+
+  .courses {
+    padding: 74px 0 54px;
+  }
+
+  .courses__item_one,
+  .courses__item_two {
+    margin-bottom: 29px;
+  }
+
+  .courses__wrapper {
+    padding: 33px 30px;
+
+    min-height: 376px;
+
+  }
+
+  .courses-item__time {
+    right: 10px;
+  }
+
+  .courses-item__title {
+    width: 262px;
+    margin-bottom: 8px;
+  }
+
+  .courses-content_one {
+    margin-bottom: 31px;
+  }
+
+  .courses-content_two {
+    margin-bottom: 76px;
+  }
+
+  .courses-content_three {
+    margin-bottom: 101px;
+  }
+
+  .courses-content_four {
+    margin-bottom: 29px;
+  }
+
+  .courses__link,
+  .courses__link_three,
+  .courses__link_four {
+    padding: 20px 56px;
+  }
+
+  .social {
+    padding: 28px 0 23px;
+  }
+}
+
+@media (min-width:992px) {
+  .hero {
+    padding: 15px 0 12px;
+  }
+
+  .hero__content {
+    padding-top: 115px;
+  }
+
+  .title {
+    margin-bottom: 29px;
+    font-size: 60px;
+  }
+
+  .about-us {
+    padding-bottom: 80px;
+  }
+
+  .about-us__wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .about-us__descr {
+    margin-bottom: 22px;
+    width: 585px;
+  }
+
+  .about-us__item {
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: var(--gap);
+  }
+
+  .about-us__image_circle {
+    margin-bottom: 0;
+  }
+
+  .teachers {
+    padding: 76px 0 47px;
+  }
+
+  .teachers__title {
+    margin-bottom: 22px;
+  }
+
+  .teachers__item_one,
+  .teachers__item_two {
+    margin-bottom: 26px;
+  }
+
+  .courses__item_one,
+  .courses__item_two {
+    margin-bottom: 30px;
+  }
+
+  .courses__title {
+    margin-bottom: 24px;
+  }
+
+
+
+  .courses-item__time {
+    right: 4px;
+  }
+
+  .courses__wrapper {
+
+min-height: 300px;
+
+  }
+
+  .courses-content_one {
+    margin-bottom: 25px;
+  }
+
+  .courses-content_two {
+    margin-bottom: 49px;
+  }
+
+  .courses-content_three {
+    margin-bottom: 74px;
+  }
+
+  .courses-content_four {
+    margin-bottom: 25px;
+  }
+
+  .courses__link,
+  .courses__link_three,
+  .courses__link_four {
+    padding: 20px 59px;
+  }
+
+  .footer {
+    padding-top: 26px;
+  }
+
+  @media (min-width:1200px) {
+
+    .courses__wrapper {
+
+      min-height: 300px;
+    }
+
+    .courses-content_one {
+      margin-bottom: 50px;
+    }
+
+    .courses-content_two {
+      margin-bottom: 51px;
+    }
+
+    .courses-content_three {
+      margin-bottom: 74px;
+    }
+
+    .courses-content_four {
+      margin-bottom: 50px;
+    }
+  }
+}
